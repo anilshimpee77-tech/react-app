@@ -1,12 +1,13 @@
+import Footer from "./Footer";
+import MainContent from "./MainContaint";
 import MyHeader from "./MyHeader";
 
 const Page = () => {
     return (
-        <><MyHeader />    
-        <ol>
-            <li>Learning React</li>
-            <li>Its a awesome language Enjoy fun while learning</li>
-        </ol></>
+        <><MyHeader />   
+        <MainContent />
+        <Footer /> 
+        </>
     )
 }           
 export default Page;
